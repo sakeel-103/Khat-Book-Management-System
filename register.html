@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Khata</title>
+    <link rel="shortcut icon" type="image" href="img/logo.webp">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="register.css   ">
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.webp" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="join.html">
+            <button class="btn">Join Us</button>
+        </a>
+        <a href="qr.html">
+            <button class="btn">QR</button>
+        </a>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Khatabook is Managed Here</h1>
+        <form action="connect.php" method="post">
+            <div class="form-group">
+                <input type="text" name="kname" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="plus" placeholder="Enter Amount to be Added">
+            </div>
+            <div class="form-group">
+                <input type="text" name="minus" placeholder="Enter Amount to be Subtracted">
+            </div>
+            <div class="form-group">
+                <input type="text" name="taareek" placeholder="Enter Date">
+            </div>
+            <button type="submit" class="btn" name="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
